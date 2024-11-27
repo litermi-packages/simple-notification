@@ -140,5 +140,18 @@ class SendSimpleNotificationService
                 $this->withoutTrace,
             );
         }
+
+        $this->resetDefaultValues();
+
+    }
+
+    private function resetDefaultValues()
+    {
+        $this->notification_email = false;
+        $this->notification_slack = false;
+        $this->channel_slack = null;
+        $this->to_email = null;
+        $this->level = null;
+        $this->withoutTrace = false;
     }
 }
