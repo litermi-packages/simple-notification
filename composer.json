@@ -1,5 +1,5 @@
 {
-    "name": "litermi/simple-notification",
+    "name": "litermi-packages/simple-notification",
     "description": "The Simple Notification is a package to send notification when has an error",
     "type": "library",
     "license": "MIT",
@@ -19,7 +19,7 @@
         "illuminate/notifications": "^7.20|^8.19|^9.0|^10.0|^11.0",
         "laravel/slack-notification-channel": "^2.3|^3.2",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
-        "litermi/logs": "^1.0"
+        "litermi-packages/logs": "^1.0"
     },
     "autoload": {
         "psr-4": {

@@ -10,9 +10,9 @@ The `Simple Notification` is a package to send notification when has an error .
 
 ## Installation
 
-Require the `litermi/simple-notification` package in your `composer.json` and update your dependencies:
+Require the `litermi-packages/simple-notification` package in your `composer.json` and update your dependencies:
 ```sh
-composer require litermi/simple-notification
+composer require litermi-packages/simple-notification
 ```
 
 
