@@ -115,7 +115,7 @@ class SendSimpleNotificationService
      */
     public function notification($subject, string $message = '', $extraValues = []): void
     {
-        LogConsoleFacade::full()->tracker()->log(
+        LogConsoleFacade::simple()->log(
             'LOG_SIMPLE_NOTIFICATION_' . $message,
             $extraValues
         );
